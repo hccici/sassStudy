@@ -1,0 +1,52 @@
+#content {
+  background-color: #706b6b;
+}
+
+#content article h1 {
+  color: #f00909;
+}
+
+#content article p {
+  margin-bottom: 1.4em;
+}
+
+#content aside {
+  background-color: #eee;
+}
+
+#content a {
+  color: aqua;
+}
+
+#content a:hover {
+  color: red;
+}
+
+body #content article {
+  border: 1px solid salmon;
+}
+
+#content1 h1,
+#content1 h2 {
+  color: aquamarine;
+}
+
+#content h3,
+#content h4,
+#content1 h3,
+#content1 h4 {
+  color: bisque;
+}
+
+.select ~ li {
+  color: aqua;
+}
+
+.ul > .select {
+  color: brown;
+}
+
+.select + li {
+  color: #eee;
+}
+/*# sourceMappingURL=index.css.map */

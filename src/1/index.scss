@@ -1,0 +1,8 @@
+$nav-color: #F90;
+$nav-border: solid 1px $nav-color;
+nav {
+  $width: 100px;
+  width: $width;
+  color: $nav-color;
+  border: $nav_border;
+}

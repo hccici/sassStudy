@@ -1,0 +1,48 @@
+#content {
+  background-color: rgb(112, 107, 107);
+  article {
+    h1 {
+      color: rgb(240, 9, 9);
+    }
+    p {
+      margin-bottom: 1.4em;
+    }
+  }
+  aside {
+    background-color: #eee;
+  }
+  // 父选择器的两种用法
+  a {
+    color: aqua;
+    &:hover {
+      color: red;
+    }
+  }
+  body & article {
+    border: 1px solid salmon;
+  }
+}
+#content1 {
+  h1,
+  h2 {
+    color: aquamarine;
+  }
+}
+#content,
+#content1 {
+  h3,
+  h4 {
+    color: bisque;
+  }
+}
+.select {
+  ~ li {
+    color: aqua;
+  }
+  .ul > & {
+    color: brown;
+  }
+  + li {
+    color: #eee;
+  }
+}

@@ -49,4 +49,12 @@ body #content article {
 .select + li {
   color: #eee;
 }
+
+.div {
+  width: 100px;
+  margin-left: 20px;
+  border: 1px solid green;
+  border-left: 10px solid yellow;
+  border-right-color: blue;
+}
 /*# sourceMappingURL=index.css.map */

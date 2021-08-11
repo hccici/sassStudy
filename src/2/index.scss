@@ -46,3 +46,15 @@
     color: #eee;
   }
 }
+.div {
+  width: 100px;
+  margin: {
+    left: 20px;
+  }
+  border: 1px solid green {
+    left: 10px solid yellow;
+    right: {
+      color: blue;
+    }
+  }
+}

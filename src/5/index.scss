@@ -1,0 +1,18 @@
+@import "./mixin";
+
+@include init;
+
+.div {
+  background: rgb(97, 185, 212);
+  @include rounded-corners;
+}
+.bluebox {
+  width: 100px;
+  @include pp;
+}
+a {
+  @include link-color(blue, yellow, red);
+}
+.a {
+  @include link-color(green);
+}

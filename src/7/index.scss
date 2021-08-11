@@ -1,0 +1,11 @@
+.error {
+  width: 50px;
+  border: 1px solid red;
+  &.bg {
+    background-color: gray;
+  }
+  &__big {
+    @extend .error;
+    border-width: 5px;
+  }
+}

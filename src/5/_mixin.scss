@@ -1,0 +1,24 @@
+@mixin init {
+  div {
+    margin: 20px;
+    width: 50px;
+    background: rgb(221, 129, 129);
+  }
+}
+@mixin rounded-corners {
+  border-radius: 5px;
+}
+@mixin pp {
+  p {
+    color: #fff;
+  }
+}
+@mixin link-color($normal, $hover: #fff, $visited: $normal) {
+  color: $normal;
+  &:hover {
+    color: $hover;
+  }
+  &:visited {
+    color: $visited;
+  }
+}

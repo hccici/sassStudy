@@ -1,0 +1,43 @@
+div {
+  margin: 20px;
+  width: 50px;
+  background: #dd8181;
+}
+
+.div {
+  background: #61b9d4;
+  border-radius: 5px;
+}
+
+.bluebox {
+  width: 100px;
+}
+
+.bluebox p {
+  color: #fff;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+.a {
+  color: green;
+}
+
+.a:hover {
+  color: #fff;
+}
+
+.a:visited {
+  color: green;
+}
+/*# sourceMappingURL=index.css.map */
